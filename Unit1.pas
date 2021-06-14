@@ -9,7 +9,9 @@ uses
 
 type
   TForm1 = class(TForm)
+    /// <link>aggregation</link>
     Shape1: TShape;
+    /// <link>aggregation</link>
     Timer1: TTimer;
     procedure FormCreate(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
@@ -29,8 +31,8 @@ implementation
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  dX := 1;
-  dY := 1;
+  dX := 10;
+  dY := 10;
 end;
 
 procedure TForm1.Timer1Timer(Sender: TObject);

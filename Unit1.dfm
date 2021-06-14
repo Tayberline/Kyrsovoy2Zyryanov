@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   Caption = 'Form1'
   ClientHeight = 299
-  ClientWidth = 635
+  ClientWidth = 309
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,11 +19,12 @@ object Form1: TForm1
     Top = 64
     Width = 65
     Height = 65
+    Shape = stCircle
   end
   object Timer1: TTimer
     Interval = 100
     OnTimer = Timer1Timer
-    Left = 200
-    Top = 64
+    Left = 176
+    Top = 80
   end
 end
